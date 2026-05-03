@@ -86,16 +86,6 @@ The project extracts several important security-related features such as:
 
 - Accuracy: **99.19%**
 
-## SVM
-
-- Accuracy: **99.01%**
-
-Both models achieved excellent precision, recall, and F1-score on the testing dataset.
-
----
-Decision Tree Accuracy:
-0.9919649379108838
-
 Classification Report:
 
               precision    recall  f1-score   support
@@ -109,8 +99,9 @@ weighted avg       0.99      0.99      0.99      2738
 
 <img width="452" height="393" alt="image" src="https://github.com/user-attachments/assets/6ce99e1a-e900-445c-995c-3e83c690e87c" />
 
-SVM Accuracy:
-0.9901387874360847
+## SVM
+
+- Accuracy: **99.01%**
 
 Classification Report:
 
@@ -122,6 +113,13 @@ Classification Report:
     accuracy                           0.99      2738
    macro avg       0.99      0.99      0.99      2738
 weighted avg       0.99      0.99      0.99      2738
+
+Both models achieved excellent precision, recall, and F1-score on the testing dataset.
+
+---
+
+
+
 
 
 # Example Prediction
