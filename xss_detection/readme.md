@@ -93,33 +93,36 @@ The project extracts several important security-related features such as:
 Both models achieved excellent precision, recall, and F1-score on the testing dataset.
 
 ---
+Decision Tree Accuracy:
+0.9919649379108838
 
-# Installation
+Classification Report:
 
-Clone the repository:
+              precision    recall  f1-score   support
 
-```bash
-git clone https://github.com/your-username/xss-detection-ml.git
-cd xss-detection-ml
-```
+           0       0.99      1.00      0.99      1263
+           1       1.00      0.99      0.99      1475
 
-Install dependencies:
+    accuracy                           0.99      2738
+   macro avg       0.99      0.99      0.99      2738
+weighted avg       0.99      0.99      0.99      2738
 
-```bash
-pip install -r requirements.txt
-```
+<img width="452" height="393" alt="image" src="https://github.com/user-attachments/assets/6ce99e1a-e900-445c-995c-3e83c690e87c" />
 
----
+SVM Accuracy:
+0.9901387874360847
 
-# Usage
+Classification Report:
 
-Run the notebook or Python script:
+              precision    recall  f1-score   support
 
-```bash
-python main.py
-```
+           0       0.98      1.00      0.99      1263
+           1       1.00      0.98      0.99      1475
 
----
+    accuracy                           0.99      2738
+   macro avg       0.99      0.99      0.99      2738
+weighted avg       0.99      0.99      0.99      2738
+
 
 # Example Prediction
 
@@ -168,20 +171,7 @@ The project includes:
 
 ---
 
-# Project Structure
 
-```text
-xss-detection-ml/
-│
-├── dataset/
-├── notebooks/
-├── models/
-├── README.md
-├── requirements.txt
-└── main.py
-```
-
----
 
 # Future Scope
 
@@ -200,7 +190,3 @@ Possible future enhancements:
 Tonmoy Datta
 
 ---
-
-# License
-
-This project is licensed under the MIT License.
